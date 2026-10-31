@@ -10,6 +10,11 @@ so the parent's context never grows with recursion depth.
 > DSH-style persistent team collaboration, with **zero third-party agent-framework dependencies**
 > (only the OpenAI-compatible protocol).
 
+**🔗 Live frontend demo:** <https://chen1995-web.github.io/agentree/> — the production build of the
+Vue3 console (English default, 🌐 中文 toggle), served on GitHub Pages. It renders the real product
+login/landing UI. The console's `/api/*` backend and live agent runs need the FastAPI server, so
+run it locally (below) or via Docker for the full interactive experience.
+
 ---
 
 ## Why it holds up
