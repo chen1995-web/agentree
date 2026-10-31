@@ -1,0 +1,9 @@
+{
+  "name": "agentree",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A minimal agent framework where agents spawn sub-agents. Root package.json 仅用于项目级 JS 工具链（modlens 等）。",
+  "devDependencies": {
+    "@liustack/modlens": "^3.27.2"
+  }
+}

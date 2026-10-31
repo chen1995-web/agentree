@@ -1,0 +1,12 @@
+node_modules
+dist
+trace.jsonl
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+*.egg-info/
+build/
+.secret.key
+.DS_Store
