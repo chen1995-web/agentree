@@ -6,6 +6,9 @@ import vue from '@vitejs/plugin-vue'
 // 生产模式：pnpm build 产物在 dist/，由 python3 -m agentree.server 托管
 export default defineConfig({
   plugins: [vue()],
+  // GitHub Pages serves the site at /<repo>/, so the built asset URLs must be
+  // prefixed with the repo subpath. Override with VITE_BASE for other hosts.
+  base: process.env.VITE_BASE || '/agentree/',
   resolve: {
     alias: { '@': fileURLToPath(new URL('./src', import.meta.url)) },
   },
